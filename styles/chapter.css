@@ -1,0 +1,32 @@
+/* chapter styles */
+.chapter{
+    background-color: #002F31;
+    width: 90%;
+    margin: auto;
+    align-items: center;
+    margin-bottom: 1%;
+    overflow-x: hidden;
+}
+.chapter-tag{
+    color: #5AC6CC;
+    padding: 0% 0% 1% 0%;
+    flex-direction: row;
+    overflow-y: hidden;
+    justify-content: center;
+    font-size: 1.35vmax;
+}
+.chapter-tag.row{
+    align-items: center;
+}
+.chapter-identifier-value{
+    color: white;
+}
+.chapter-identifier-value:hover{
+    background-color: #baba90;
+    transition: 0.1s;
+}
+.chapter-expand{
+    height: 8vh;
+    width: 8vh;
+    margin-top: 2%;
+}

@@ -1,0 +1,108 @@
+/* body styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #00191A;
+    min-width: 900px;
+    max-width: 100vw;
+    height: 100%;
+    overflow-x: hidden;
+    position: relative;
+}   
+.body{
+    overflow-y: scroll;
+    width: 100%;
+    margin: auto;
+    margin-top: 5%;
+}
+
+/* tags info styling */
+.tag-name{
+    font-size: 1.8vmax;
+    font-weight: bold;
+    color: #4EC9B0;
+    overflow: hidden;
+    justify-content: center;
+}
+.attributes-number-name > .attribute-number,
+.attributes-number-name > .attribute-name{
+    display: flex;
+    justify-content: flex-end;
+}
+.attributes-number-name-values{
+    overflow: hidden;
+}
+.attributes-number-name-values > .attribute-number-value,
+.attributes-number-name-values > .attribute-name-value{
+    display: flex;
+    justify-content: flex-start;
+}
+.attribute-number-value,
+.attribute-name-value{
+    color: white;   
+}
+.attribute-name-value span:hover,
+.attribute-number-value span:hover{
+    background-color: #baba90;
+    transition: 0.1s;
+}
+
+/* symbol (arrow) styling */
+.chapter-expand,
+.article-expand{
+    background-color: transparent;
+    border: none;
+}
+.arrow-icon{
+    fill: white;
+}
+.arrow-icon:hover{
+    fill: #baba90;
+    transition: 0.1s;
+}
+/* symbol (pencil) styling */
+.write-article-content{
+    background-color: transparent;
+    border: none;
+    height: 8vh;
+    width: 8vh;
+}
+.write-article-content svg{
+    fill: white;
+}
+.write-article-content svg:hover{
+    fill: #baba90;
+    transition: 0.1s;
+}
+/* symbol (plus) styling */
+.add-new-chapter{
+    background-color: transparent;
+    border: none;
+    height: 8vh;
+    width: 8vh;
+}
+.add-new-chapter svg{
+    fill: white;
+}
+.add-new-chapter svg:hover{
+    fill: #baba90;
+    transition: 0.1s;
+}
+/* collapse transition effects */
+.collapsing{
+    transition-duration: 0.1s;
+}
+.collapse{
+    visibility:visible;
+}
+.collapse.show{
+    visibility: visible;
+    display: block;
+}
+
+
+
+
